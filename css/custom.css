@@ -1,0 +1,217 @@
+/** Fonts **/
+@import url('roboto.css');
+
+
+
+/** Preloader **/
+.dots img {
+  width: 200px;
+}
+.dots {
+  position: relative;
+  font-family: sans-serif;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-size: 1.1em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, #d6bf31, #fff, #d6bf31);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+/** Header **/
+.header-flex-container {
+  display: flex;
+  justify-content: center;
+  padding: 0.2em;
+  background-color: #d6bf31;
+}
+
+#top-header-One {
+  position: relative;
+  font-family: 'Roboto', sans-serif;
+  /**text-transform: uppercase;**/
+  font-size: 1em;
+  letter-spacing: 2px;
+  overflow: hidden;
+  background-color: #d6bf31;
+  color: #000;
+  -moz-transform: translateX(170%);
+  -webkit-transform: translateX(170%);
+  transform: translateX(170%);
+  
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from { -moz-transform: translateX(170%); }
+  to { -moz-transform: translateX(-170%); }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from { -webkit-transform: translateX(170%); }
+  to { -webkit-transform: translateX(-170%); }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(170%);
+    -webkit-transform: translateX(170%);
+    transform: translateX(170%);
+  }
+  to {
+    -moz-transform: translateX(-170%);
+    -webkit-transform: translateX(-170%);
+    transform: translateX(-170%);
+  }
+}
+.top-header-nav .nav-link.active::after {
+  content: "";
+  border-bottom: 3px solid #d6bf31;
+  display: block;
+position: relative;
+top: -5px;
+}
+
+/**Hero Slider **/
+.slider-counter {
+  position: absolute;
+  top: 5%;
+  z-index: 2;
+  margin-top: 0px;
+  width: 100%;
+}
+.slider-counter div.counter-wrapper {
+  padding: 20px 20px;
+  background-color: transparent;
+}
+.currency {
+  line-height: 1;
+color: #fff;
+font-size: 50px;
+font-weight: 600;
+}
+.slider-counter-box .counter, .slider-counter .currency {
+  font-size: 35px;
+}
+.slider-counter-box {
+  background-color: rgba(214, 191, 49, 0.7);
+  justify-content: space-around;
+  padding-bottom: 10px;
+padding-top: 10px;
+}
+.counter-box .currency-amount {
+  display: inline;
+}
+.slider-icon-text {
+  text-align: right;
+}
+.slider-icon-text .title {
+  font-size: 15px;
+  font-weight: 400;
+}
+.slider-icon {
+  color: #fff;
+  font-size: 30px;
+  padding-bottom: 25px;
+}
+.hero-single {
+  height: 600px;
+}
+#slider-text {
+  position: absolute;
+top: 40%;
+z-index: 2;
+right: 15%;
+width: 70%;
+padding-top: 0.5em;
+padding-bottom: 1em;
+}
+#slider-text .hero-title {
+color: #fff;
+font-size: 3em;
+font-weight: 700;
+font-family: 'Roboto', sans-serif;
+text-transform: uppercase;
+}
+
+.typewriter {
+  font-family: 'Roboto', sans-serif;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #d6bf31 !important; 
+}
+
+.slider-sub-title {
+  color:#fff;
+  font-size: 1.2rem;
+}
+
+/** Advertisers-Operators **/
+.cta-text-two {
+  font-size: 18px;
+}
+
+
+
+/** Responsive CSS **/
+@media (max-width: 991px) {
+  body {
+    font-size: 14px;
+  }
+  /** Header **/
+  .header-flex-container {
+    display: none;
+  }
+  .top-header-nav .nav-link.active::after {
+    content: "";
+    border: none;
+  }
+
+  /** Hero Slider **/
+  .owl-nav {
+    display: none;
+  }
+  #slider-text {
+    width: 100%;
+    top: 45%;
+    right: 0;
+    text-align: center;
+  }
+  #slider-text .hero-title {
+    font-size: 1.5em;
+  }
+  .slider-sub-title {
+    font-size: 1rem;
+  }
+  .site-title {
+    font-size: 1.3em;
+  }
+  .slider-counter {
+    display: none;
+  }
+
+  /** Advertisers-Operators **/
+  .cta-text-two h1 {
+    font-size: 1.5em;
+  }
+.cta-text-two {
+  font-size: 1em;
+}
+}
