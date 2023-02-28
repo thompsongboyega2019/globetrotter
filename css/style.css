@@ -288,7 +288,7 @@ theme default css
 }
 
 .bg {
-  background-color: rgb(255, 251, 229);
+  background-color: #f9f9f9;
 }
 
 
@@ -701,7 +701,7 @@ scroll-top css
   outline: none;
   border-radius: 8px;
   color: #fff;
-  background: #09C398;
+  background: #D6BF31;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -727,7 +727,7 @@ header top css
 ====================== */
 
 .header-top {
-  background: #fff;
+  background: #d6bf31;
   padding: 8px 0;
   position: relative;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -771,13 +771,13 @@ header top css
 }
 
 .header-top-contact ul li a {
-  color: #000;
+  color: #fff;
   font-weight: 400;
   font-size: 17px;
 }
 
 .header-top-contact ul li a i {
-  color: #d6bf31;
+  color: #000;
   margin-right: 5px;
 }
 
@@ -788,11 +788,11 @@ header top css
 }
 
 .header-top-link {
-  color: #000;
+  color: #fff;
 }
 
 .header-top-link i {
-  color: #d6bf31;
+  color: #000;
   margin-right: 5px;
 }
 
@@ -809,14 +809,14 @@ header top css
   width: 36px;
   height: 36px;
   line-height: 36px;
-  color: #fff;
+  color: #000;
   font-size: 18px;
   text-align: center;
   transition: all .5s ease-in-out;
 }
 
 .header-top-social a:hover {
-  color: #09C398;
+  color: #fff;
 }
 
 .header-phone {
@@ -904,7 +904,7 @@ nav menu css
     padding: 20px 0 20px 0;
     font-size: 17px;
     font-weight: 500;
-    color: #fff;
+    color: #000;
     text-transform: capitalize;
   }
 
@@ -1050,7 +1050,7 @@ nav menu css
 
 /*bootstrap nav*/
 .navbar {
-  background: #000;
+  background: #fff;
   padding-top: 0px;
   padding-bottom: 0px;
   z-index: 999;
@@ -1071,12 +1071,12 @@ nav menu css
 }
 
 .navbar.fixed-top .header-nav-link:hover {
-  color: #09C398;
+  color: #D6BF31;
 }
 
 .navbar.fixed-top .nav-item .nav-link.active,
 .navbar.fixed-top .nav-item:hover .nav-link {
-  color: #09C398;
+  color: #D6BF31;
 }
 
 
@@ -1235,7 +1235,7 @@ button.navbar-toggler:focus {
 
   .navbar-toggler-btn-icon {
     font-size: 25px;
-    color: #fff;
+    color: #000;
     font-weight: 500;
   }
 
@@ -1433,6 +1433,7 @@ hero css
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
+  display: none;
 }
 
 @media all and (max-width: 1199px) {
@@ -1536,8 +1537,8 @@ search css
 }
 
 .search-form {
-  background: #fff;
-  padding: 25px;
+  background: rgba(255, 255, 255, 0.2);
+  padding: 15px;
   border-radius: 18px;
   position: relative;
   box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
@@ -6407,7 +6408,7 @@ footer css
 ====================== */
 
 .footer-area {
-  background: #00122D;
+  background: #000;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -6424,12 +6425,12 @@ footer css
 
 .footer-logo img {
   width: 200px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 .copyright {
-  padding: 20px 0;
-  background: #011635;
+  padding: 10px 0;
+background: #161616;
 }
 
 .copyright .footer-menu {
@@ -6460,7 +6461,7 @@ footer css
 }
 
 .copyright .copyright-text a {
-  color: #09C398;
+  color: #D6BF31;
   font-weight: 500;
 }
 
@@ -6537,23 +6538,23 @@ footer css
   text-align: center;
   border-radius: 8px;
   background: #fff;
-  color: #09C398;
+  color: #D6BF31;
   transition: all .5s ease-in-out;
 }
 
 .footer-social li a i:hover {
-  background: #09C398;
+  background: #D6BF31;
   color: #fff;
 }
 
 .footer-contact li {
   position: relative;
   display: flex;
-  justify-content: start;
+  justify-content: center;
   align-items: center;
   color: #f5faff;
   font-size: 16px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .footer-contact li a {
@@ -6563,13 +6564,13 @@ footer css
 }
 
 .footer-contact li i {
-  width: 32px;
-  height: 32px;
+  /**width: 32px;
+  height: 32px;**/
   line-height: 32px;
   font-size: 16px;
   margin-right: 15px;
   border-radius: 8px;
-  background: #09C398;
+  /**background: #d6bf31;**/
   text-align: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -6690,7 +6691,7 @@ home 3
 }
 
 .home-3 .search-area{
-  margin-top: -120px;
+  margin-top: -100px;
   position: relative;
   z-index: 1;
 }
