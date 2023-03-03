@@ -288,7 +288,7 @@ theme default css
 }
 
 .bg {
-  background-color: #f9f9f9;
+  background-color: #fbf4ff;
 }
 
 
@@ -308,7 +308,7 @@ site title css
   letter-spacing: 3px;
   font-size: 18px;
   font-weight: 700;
-  color: #D5BE30;
+  color: #661b93;
   position: relative;
 }
 
@@ -609,7 +609,7 @@ theme button
 
 .theme-btn {
   font-size: 16px;
-  color: #000;
+  color: #fff;
   padding: 12px 20px;
   transition: all 0.5s;
   text-transform: capitalize;
@@ -620,7 +620,7 @@ theme button
   text-align: center;
   overflow: hidden;
   border: none;
-  background: #D5BE30;
+  background: #661b93;
   box-shadow: 0 3px 24px rgb(0 0 0 / 12%);
   z-index: 1;
 }
@@ -629,7 +629,7 @@ theme button
   content: "";
   height: 400px;
   width: 400px;
-  background: #000;
+  background: #451e5d;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -701,7 +701,7 @@ scroll-top css
   outline: none;
   border-radius: 8px;
   color: #fff;
-  background: #D6BF31;
+  background: #661b93;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -727,7 +727,7 @@ header top css
 ====================== */
 
 .header-top {
-  background: #d6bf31;
+  background: #661b93;
   padding: 8px 0;
   position: relative;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -809,7 +809,7 @@ header top css
   width: 36px;
   height: 36px;
   line-height: 36px;
-  color: #000;
+  color: #fff;
   font-size: 18px;
   text-align: center;
   transition: all .5s ease-in-out;
@@ -900,11 +900,13 @@ nav menu css
 
 @media all and (min-width: 992px) {
   .navbar .nav-item .nav-link {
-    margin-right: 22px;
-    padding: 20px 0 20px 0;
+   margin: 10px;
+    width: 100px;
+    padding: 5px 0 5px 0;
     font-size: 17px;
     font-weight: 500;
     color: #000;
+    text-align: center;
     text-transform: capitalize;
   }
 
@@ -988,7 +990,8 @@ nav menu css
 
   .navbar .nav-item .nav-link.active,
   .navbar .nav-item:hover .nav-link {
-    color: #d6bf31;
+    color: #fff;
+    background-color: #451e5d;
   }
 
   .navbar .nav-item:hover .dropdown-menu {
@@ -1076,7 +1079,7 @@ nav menu css
 
 .navbar.fixed-top .nav-item .nav-link.active,
 .navbar.fixed-top .nav-item:hover .nav-link {
-  color: #D6BF31;
+  color: #fff;
 }
 
 
@@ -1347,7 +1350,7 @@ hero css
   height: 100%;
   left: -0.5px;
   top: 0;
-  background: rgba(0, 0, 0, .5);
+  background: rgba(0, 0, 0, .3);
   z-index: -1;
 }
 
@@ -1537,7 +1540,7 @@ search css
 }
 
 .search-form {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.5);
   padding: 15px;
   border-radius: 18px;
   position: relative;
@@ -1820,7 +1823,7 @@ category css
 
 .category-icon {
   font-size: 60px;
-  color: #09C398;
+  color: #661b93;
   line-height: 1;
 }
 
@@ -3033,7 +3036,7 @@ about css
   position: absolute;
   width: 70%;
   height: 70%;
-  background: #D5BE30;
+  background: #661b93;
   border-radius: 0 0 0 10px;
   left: -20px;
   bottom: -20px;
@@ -3049,7 +3052,7 @@ about css
 }
 
 .about-experience {
-  background: #D5BE30;
+  background: #661b93;
   position: absolute;
   border-radius: 10px 10px 0 0;
   left: 50px;
@@ -3101,7 +3104,7 @@ about css
 
 .about-list li .about-icon span {
   font-size: 20px;
-  color: #D5BE30;
+  color: #661b93;
 }
 
 .about-bottom {
@@ -3121,7 +3124,7 @@ about css
   height: 55px;
   font-size: 25px;
   border-radius: 50px;
-  background: #000;
+  background: #661b93;
   color: #fff;
   display: flex;
   align-items: center;
@@ -3139,7 +3142,7 @@ about css
 }
 
 .about-call-number a {
-  color: #d5be30;
+  color: #8f4ab9;
 }
 
 
@@ -3613,7 +3616,7 @@ choose css
 }
 
 .choose-icon {
-  color: #D5BE30;
+  color: #661b93;
   font-size: 60px;
   line-height: 1;
   margin-bottom: 15px;
@@ -4537,7 +4540,7 @@ contact us css
 }
 
 .contact-form .form-group .form-control:focus {
-  border-color: #09C398;
+  border-color: #8f4ab9;
 }
 
 .contact-map {
@@ -4565,7 +4568,7 @@ contact us css
   top: 30px;
   bottom: 30px;
   width: 3px;
-  background: #09C398;
+  background: #8f4ab9;
   border-radius: 50px;
 }
 
@@ -4584,7 +4587,7 @@ contact us css
   line-height: 60px;
   text-align: center;
   border-radius: 50px;
-  background: #09C398;
+  background: #661b93;
 }
 
 .contact-info h5 {
@@ -5024,13 +5027,13 @@ faq css
   height: 45px;
   line-height: 45px;
   border-radius: 50px;
-  background: #09C398;
+  background: #661b93;
   text-align: center;
   color: #fff;
 }
 
 .faq-area .accordion-button:not(.collapsed) {
-  color: #09C398;
+  color: #8f4ab9;
   background: transparent;
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
@@ -5141,16 +5144,17 @@ breadcrumb css
 }
 
 .site-breadcrumb .breadcrumb-menu li a:hover {
-  color: #09C398;
+  color: rgb(214, 191, 49);
 }
 
 .site-breadcrumb .breadcrumb-menu li.active {
-  color: #09C398;
+  color: #fff;
 }
 
 @media (max-width: 991px) {
   .site-breadcrumb {
-    padding-top: 200px;
+    padding-top: 130px;
+    padding-bottom: 80px;
   }
 }
 
@@ -5227,7 +5231,7 @@ auth css
   background: #fff;
   border-radius: 7px;
   position: relative;
-  box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
+  box-shadow: 0 0 40px 10px rgba(0, 0, 0, 0.1);
 }
 
 .login-form::before {
@@ -5237,7 +5241,7 @@ auth css
   bottom: 40px;
   left: 0;
   width: 3px;
-  background: #09C398;
+  /**background: rgba(214, 191, 49, 0.5);**/
   border-radius: 10px;
 }
 
@@ -5247,12 +5251,12 @@ auth css
 }
 
 .login-form .login-header img {
-  width: 200px;
+  width: 150px;
   margin-bottom: 10px;
 }
 
 .login-form .login-header h3 {
-  color: #09C398;
+  color: #D5BE30;
   margin-bottom: 5px;
   font-weight: 800;
 }
@@ -5270,12 +5274,13 @@ auth css
 }
 
 .login-form .login-footer a {
-  color: #09C398;
+  color: #661b93;
   transition: .5s;
 }
 
 .login-form .login-footer a:hover {
-  color: #09C398;
+  color: #000;
+  text-decoration: underline;
 }
 
 .login-form .form-group {
@@ -5311,12 +5316,13 @@ auth css
 }
 
 .login-form .forgot-pass {
-  color: #09C398;
+  color: #661b93;
   transition: .5s;
 }
 
 .login-form .forgot-pass:hover {
-  color: #09C398;
+  color: #000;
+  text-decoration: underline;
 }
 
 .login-form .theme-btn {
@@ -6691,7 +6697,7 @@ home 3
 }
 
 .home-3 .search-area{
-  margin-top: -100px;
+  margin-top: -170px;
   position: relative;
   z-index: 1;
 }
