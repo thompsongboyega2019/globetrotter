@@ -99,7 +99,7 @@
 .top-header-nav .nav-link.active::after {
   content: "";
   border-bottom: 3px solid #d6bf31;
-  display: block;
+  display: none;
   position: relative;
   top: -5px;
 }
@@ -130,20 +130,29 @@
   font-size: 35px;
 }
 
-.slider-counter-box {
-  background-color: rgba(128, 128, 12, 0.6);
+.counter-box-odd {
+  background-color: rgb(69, 30, 93);
   justify-content: space-around;
   padding-bottom: 10px;
   padding-top: 10px;
-  border: 1px solid rgb(255, 255, 255);
-  border-radius: 15px;
+  /**border: 1px solid rgb(255, 255, 255);**/
+  /**border-radius: 15px;**/
+}
+
+.counter-box-even {
+  background-color: rgb(102, 27, 147);
+  justify-content: space-around;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  /**border: 1px solid rgb(255, 255, 255);**/
+  /**border-radius: 15px;**/
 }
 
 .counter-box .currency-amount {
   display: inline;
 }
 .grid-counter-box {
-  padding: 10px 10px;
+  padding: 20px 10px;
   margin-top: 0.5em;
   margin-bottom: 0.5em;
 }
@@ -178,7 +187,7 @@
 
 #slider-text {
   position: absolute;
-  top: 25%;
+  top: 30%;
   right: 15%;
   z-index: 2;
   padding-top: 0.5em;
@@ -188,30 +197,81 @@
 #slider-text .hero-title {
   color: #fff;
   font-size: 3em;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 30px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
 }
 
-.typewriter {
+#slider-text h1.typewriter {
   font-family: 'Roboto', sans-serif;
   white-space: nowrap;
   color: #fff !important;
-  background-color: #d6bf31;
-  padding: 5px 5px;
-  font-size: 2.3em !important;
-
+  background-color: #8f4ab9;
+padding: 5px 30px;
+font-size: 2.3em !important;
+/**border-radius: 25px;**/
 }
 
 .slider-sub-title {
   color: #fff;
   font-size: 1.2rem;
+  width: fit-content;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 20px;
+}
+.hero-title-div {
+  text-align: center;
+}
+.hero-title-div h1 {
+  width: fit-content;
+  margin: 10px auto;
+}
+
+/**Counter Section **/
+#counter-section {
+  position: relative;
+  z-index: 2;
+  margin-top: 70px;
+  background-color: #fbf4ff;
 }
 
 /** Advertisers-Operators **/
 .cta-text-two {
   font-size: 18px;
 }
+
+/** Partner **/
+#partners-slide {
+  position: relative;
+  z-index: 3;
+}
+section div.bg-new {
+  background-color: #fff;
+}
+
+/** Why Choose Us **/
+#why-choose-us {
+  background-color: #661b93;
+  background-image: url(../img/about/why.jpg);
+  background-size: cover;
+  /**background-attachment: fixed;**/
+}
+#why-choose-us::before {
+   content: "";
+   background-color: rgba(255, 255, 255, .9);
+   height: 100%;
+   width: 100%;
+   position: absolute;
+}
+
+/** Category **/
+#category-section {
+  background-color: #fbf4ff;
+}
+
 
 
 
@@ -264,6 +324,9 @@
   #slider-text .hero-title {
     font-size: 2em;
   }
+  #slider-text h1.typewriter {
+    font-size: 1.5em !important;
+  }
 
   .slider-sub-title {
     font-size: 1rem;
@@ -288,6 +351,36 @@
 
   /** Slider Search Bar **/
   .home-3 .search-area {
-    margin-top: -50px;
+    margin-top: -200px;
   }
+  .theme-btn {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  /** Breadcrumb **/
+.site-breadcrumb .breadcrumb-title {
+  font-size: 30px;
+}
+.login-form .login-header p {
+  font-size: 16px;
+}
+
+/**Counter Section **/
+#counter-section {
+  margin-top: 30px;
+}
+
+/** Category **/
+h4.category-title {
+  font-size: 15px;
+}
+
+ /** Footer**/
+ .footer-logo img {
+  width: 150px;
+ }
+ .copyright .copyright-text {
+  font-size: 14px;
+ }
 }

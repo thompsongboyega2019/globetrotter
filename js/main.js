@@ -394,6 +394,9 @@ Version         : 1.0
         });
     }
 
+    //Cookies 
+    
+    
 })(jQuery);
 
 
