@@ -308,7 +308,7 @@ site title css
   letter-spacing: 3px;
   font-size: 18px;
   font-weight: 700;
-  color: #661b93;
+  color: #c40b0b;
   position: relative;
 }
 
@@ -457,6 +457,12 @@ margin & padding
 .pt-100 {
   padding-top: 100px;
 }
+.pt-140 {
+  padding-top: 140px;
+}
+.pt-200 {
+  padding-top: 200px;
+}
 
 .pb-0 {
   padding-bottom: 0px;
@@ -500,6 +506,10 @@ margin & padding
 
 .pb-100 {
   padding-bottom: 100px;
+}
+
+.pb-200 {
+  padding-bottom: 200px;
 }
 
 .mt-0 {
@@ -620,7 +630,7 @@ theme button
   text-align: center;
   overflow: hidden;
   border: none;
-  background: #661b93;
+  background: rgba(16, 32, 57, 1);
   box-shadow: 0 3px 24px rgb(0 0 0 / 12%);
   z-index: 1;
 }
@@ -629,7 +639,7 @@ theme button
   content: "";
   height: 400px;
   width: 400px;
-  background: #451e5d;
+  background: #e91717;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -701,7 +711,7 @@ scroll-top css
   outline: none;
   border-radius: 8px;
   color: #fff;
-  background: #661b93;
+  background: #102039;
   cursor: pointer;
   width: 50px;
   height: 50px;
@@ -727,7 +737,7 @@ header top css
 ====================== */
 
 .header-top {
-  background: #661b93;
+  background: #102039;
   padding: 8px 0;
   position: relative;
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
@@ -777,7 +787,7 @@ header top css
 }
 
 .header-top-contact ul li a i {
-  color: #000;
+  color: #e91717;
   margin-right: 5px;
 }
 
@@ -991,7 +1001,8 @@ nav menu css
   .navbar .nav-item .nav-link.active,
   .navbar .nav-item:hover .nav-link {
     color: #fff;
-    background-color: #451e5d;
+    background-color: #102039;
+    border-radius: 5px;
   }
 
   .navbar .nav-item:hover .dropdown-menu {
@@ -1053,7 +1064,7 @@ nav menu css
 
 /*bootstrap nav*/
 .navbar {
-  background: #fff;
+  background: #edf2f9;
   padding-top: 0px;
   padding-bottom: 0px;
   z-index: 999;
@@ -1350,7 +1361,7 @@ hero css
   height: 100%;
   left: -0.5px;
   top: 0;
-  background: rgba(0, 0, 0, .3);
+  background: rgba(16, 32, 57, .5);
   z-index: -1;
 }
 
@@ -1540,7 +1551,7 @@ search css
 }
 
 .search-form {
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(16, 32, 57, .3);
   padding: 15px;
   border-radius: 18px;
   position: relative;
@@ -1805,7 +1816,7 @@ category css
 
 .category-item {
   text-align: center;
-  background: #fff;
+  background: rgba(237, 242, 249, .8);
   margin-bottom: 25px;
   border-radius: 12px;
   box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
@@ -1817,18 +1828,19 @@ category css
 }
 
 .category-item a {
-  padding: 20px 20px;
+  padding: 10px 10px;
   width: 100%;
 }
 
 .category-icon {
-  font-size: 60px;
-  color: #661b93;
+  font-size: 30px;
+  color: #c40b0b;
   line-height: 1;
 }
 
 .category-title {
   margin: 10px 0;
+  font-size: 15px;
 }
 
 .category-property {
@@ -3033,14 +3045,14 @@ about css
 
 .about-img::before {
   content: "";
-  position: absolute;
-  width: 70%;
-  height: 70%;
-  background: #661b93;
-  border-radius: 0 0 0 10px;
-  left: -20px;
-  bottom: -20px;
-  clip-path: polygon(0 0, 0 100%, 100% 100%);
+position: absolute;
+width: 110%;
+height: 110%;
+background: #102039;
+border-radius: 10px;
+left: -25px;
+bottom: -25px;
+  /**clip-path: polygon(0 0, 0 100%, 100% 100%);**/
   z-index: -1;
 }
 
@@ -3104,7 +3116,7 @@ about css
 
 .about-list li .about-icon span {
   font-size: 20px;
-  color: #661b93;
+  color: #c40b0b;
 }
 
 .about-bottom {
@@ -3124,7 +3136,7 @@ about css
   height: 55px;
   font-size: 25px;
   border-radius: 50px;
-  background: #661b93;
+  background: #102039;
   color: #fff;
   display: flex;
   align-items: center;
@@ -3142,7 +3154,7 @@ about css
 }
 
 .about-call-number a {
-  color: #8f4ab9;
+  color: #c40b0b;
 }
 
 
@@ -4568,7 +4580,7 @@ contact us css
   top: 30px;
   bottom: 30px;
   width: 3px;
-  background: #8f4ab9;
+  background: #102039;
   border-radius: 50px;
 }
 
@@ -4587,7 +4599,7 @@ contact us css
   line-height: 60px;
   text-align: center;
   border-radius: 50px;
-  background: #661b93;
+  background: #c40b0b;
 }
 
 .contact-info h5 {
@@ -5027,13 +5039,13 @@ faq css
   height: 45px;
   line-height: 45px;
   border-radius: 50px;
-  background: #661b93;
+  background: #c40b0b;
   text-align: center;
   color: #fff;
 }
 
 .faq-area .accordion-button:not(.collapsed) {
-  color: #8f4ab9;
+  color: #e91717;
   background: transparent;
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
@@ -5247,12 +5259,12 @@ auth css
 
 .login-form .login-header {
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 
 .login-form .login-header img {
   width: 150px;
-  margin-bottom: 10px;
+  /**margin-bottom: 10px;**/
 }
 
 .login-form .login-header h3 {
@@ -5266,7 +5278,7 @@ auth css
 }
 
 .login-form .login-footer {
-  margin-top: 25px;
+  margin-top: 10px;
 }
 
 .login-form .login-footer p {
@@ -5274,12 +5286,12 @@ auth css
 }
 
 .login-form .login-footer a {
-  color: #661b93;
+  color: #e91717;
   transition: .5s;
 }
 
 .login-form .login-footer a:hover {
-  color: #000;
+  color: #c40b0b;
   text-decoration: underline;
 }
 
@@ -5316,12 +5328,12 @@ auth css
 }
 
 .login-form .forgot-pass {
-  color: #661b93;
+  color: #e91717;
   transition: .5s;
 }
 
 .login-form .forgot-pass:hover {
-  color: #000;
+  color: #c40b0b;
   text-decoration: underline;
 }
 
@@ -6414,7 +6426,7 @@ footer css
 ====================== */
 
 .footer-area {
-  background: #000;
+  background: #050b13;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -6436,7 +6448,7 @@ footer css
 
 .copyright {
   padding: 10px 0;
-background: #161616;
+background: #000;
 }
 
 .copyright .footer-menu {
@@ -6467,7 +6479,7 @@ background: #161616;
 }
 
 .copyright .copyright-text a {
-  color: #D6BF31;
+  color: #e91717;
   font-weight: 500;
 }
 
@@ -6697,7 +6709,7 @@ home 3
 }
 
 .home-3 .search-area{
-  margin-top: -170px;
+  margin-top: -100px;
   position: relative;
   z-index: 1;
 }

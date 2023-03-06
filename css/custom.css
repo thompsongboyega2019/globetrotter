@@ -131,21 +131,21 @@
 }
 
 .counter-box-odd {
-  background-color: rgb(69, 30, 93);
+  background-color: rgb(16, 32, 57);
   justify-content: space-around;
   padding-bottom: 10px;
   padding-top: 10px;
   /**border: 1px solid rgb(255, 255, 255);**/
-  /**border-radius: 15px;**/
+  border-radius: 5px;
 }
 
 .counter-box-even {
-  background-color: rgb(102, 27, 147);
+  background-color: rgb(16, 32, 57);
   justify-content: space-around;
   padding-bottom: 10px;
   padding-top: 10px;
   /**border: 1px solid rgb(255, 255, 255);**/
-  /**border-radius: 15px;**/
+  border-radius: 5px;
 }
 
 .counter-box .currency-amount {
@@ -176,7 +176,7 @@
 }
 
 .slider-icon {
-  color: #fff;
+  color: #c40b0b;
   font-size: 30px;
   padding-bottom: 25px;
 }
@@ -197,21 +197,22 @@
 #slider-text .hero-title {
   color: #fff;
   font-size: 3em;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 5px 30px;
   font-weight: 700;
   font-family: 'Roboto', sans-serif;
   text-transform: uppercase;
+  border-radius: 5px;
 }
 
 #slider-text h1.typewriter {
   font-family: 'Roboto', sans-serif;
   white-space: nowrap;
   color: #fff !important;
-  background-color: #8f4ab9;
+  background-color: rgba(16, 32, 57, 1);
 padding: 5px 30px;
 font-size: 2.3em !important;
-/**border-radius: 25px;**/
+border-radius: 5px;
 }
 
 .slider-sub-title {
@@ -219,8 +220,9 @@ font-size: 2.3em !important;
   font-size: 1.2rem;
   width: fit-content;
   margin: auto;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 5px 20px;
+  border-radius: 5px;
 }
 .hero-title-div {
   text-align: center;
@@ -234,8 +236,7 @@ font-size: 2.3em !important;
 #counter-section {
   position: relative;
   z-index: 2;
-  margin-top: 70px;
-  background-color: #fbf4ff;
+  background-color: #edf2f9;
 }
 
 /** Advertisers-Operators **/
@@ -261,7 +262,7 @@ section div.bg-new {
 }
 #why-choose-us::before {
    content: "";
-   background-color: rgba(255, 255, 255, .9);
+   background-color: rgba(237, 242, 249, 0.7);
    height: 100%;
    width: 100%;
    position: absolute;
@@ -271,7 +272,71 @@ section div.bg-new {
 #category-section {
   background-color: #fbf4ff;
 }
+.category-div {
+  padding-right: 20px;
+  padding-left: 20px;
+  background-color: rgba(16, 32, 57, .5);
+  border-radius: 18px;
+}
+.category-site-heading {
+  margin-bottom: 30px;
+}
+.category-site-title {
+  color: #fff;
+}
 
+/** Others **/
+.login-area {
+  background: url(../img/breadcrumb/signin.jpg);
+  background-size: cover;
+}
+.category-page {
+  background: url(../img/breadcrumb/category.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.oaan-page {
+  background: url(../img/breadcrumb/oaan.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.login-form div.custom-login-header {
+  text-align: left;
+}
+div.terms-conditions-wrapper {
+  height: 230px;
+overflow: auto;
+border: 1px solid #000;
+padding: 10px;
+}
+.individual-login-form {
+  border: 5px solid rgba(16, 32, 57, .5);
+}
+li span.list-number, li span.list-title  {
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+}
+li span.list-number::after {
+  content: ".";
+  font-size: 14px;
+  color: #000;
+}
+li span.sub-list-title {
+  text-decoration: underline;
+  margin-left: 5px;
+}
+p.terms-title-paragraph, div.terms-body li {
+  font-size: 13px;
+  color: #000;
+  font-weight: normal;
+}
+div.add-staff p {
+  font-size: 13px;
+}
+button.individual-btn {
+  width: auto !important;
+}
 
 
 
@@ -289,6 +354,10 @@ section div.bg-new {
   .top-header-nav .nav-link.active::after {
     content: "";
     border: none;
+  }
+  .about-img::before {
+    left: -17px;
+    bottom: -17px;
   }
 
   /** Hero Slider **/
@@ -351,7 +420,7 @@ section div.bg-new {
 
   /** Slider Search Bar **/
   .home-3 .search-area {
-    margin-top: -200px;
+    margin-top: -50px;
   }
   .theme-btn {
     font-size: 14px;
@@ -382,5 +451,15 @@ h4.category-title {
  }
  .copyright .copyright-text {
   font-size: 14px;
+ }
+
+ /**Log in Forms **/
+ div.login-area {
+  padding-top: 140px;
+ }
+
+ /**Others**/
+ #why-choose-us::before {
+  height: 120%;
  }
 }
