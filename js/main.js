@@ -394,7 +394,10 @@ Version         : 1.0
         });
     }
 
-    //Cookies 
+    //Add New Staff
+    $("#add-staff-btn").click(function () {
+      $(".add-staff-form").css("display", "block"); 
+    })
     
     
 })(jQuery);
