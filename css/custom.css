@@ -337,9 +337,178 @@ div.add-staff p {
 button.individual-btn {
   width: auto !important;
 }
-
-
-
+.login-breadcrumb {
+  padding-top: 20px;
+padding-bottom: 20px;
+}
+.dashboard-bg-color {
+  background-color: rgb(237, 242, 249);
+}
+button.edit-profile-btn {
+  padding: 5px 15px;
+}
+div.profile-stats-title {
+  font-size: 14px;
+}
+div.profile-stats-divider {
+  border-bottom: 1px solid rgba(0, 0, 0, .1);
+}
+div.profile-stats-border-right {
+  border-right: 1px solid rgba(0, 0, 0, .1);;
+}
+a.profile-logout-btn {
+  background-color: #c40b0b;
+  border-radius: 10px;
+}
+.dashboard-counter-icon {
+  font-size: 2rem;
+  color: #c40b0b;
+}
+.dashboard-counter-title {
+  font-size: 15px;
+}
+div.dashboard-widget-color-1 h5.dashboard-counter-number {
+  color: #fff;
+}
+.dashboard-search-title {
+  text-align: left;
+}
+.login-form .dashboard-search-btn {
+  width: auto;
+}
+.tag-links {
+  text-align: center;
+background-color: rgb(237, 242, 249);
+padding: 5px 10px;
+border-radius: 2px;
+border: 1px solid rgba(16, 32, 57, .1);
+font-size: 14px;
+}
+.tags-aside {
+  margin-top:30px;
+  padding: 40px 30px;
+  border-radius: 10px;
+  background-color: #102039;
+}
+.tags-aside-paragraph, .tags-counter-number {
+  text-align: center;
+  color: #fff;
+}
+.tags-counter-number > h4 {
+  color: #fff;
+}
+.tags-counter-number p {
+  font-size: 12px;
+}
+.tags-aside-btn a {
+  border: none;
+  border-radius: 10px;
+padding-right: 10px;
+padding-left: 10px;
+background-color: #fff;
+}
+.active-nav-dashboard {
+  text-decoration: underline;
+}
+.dashboard-breadcrumb-menu-left {
+  text-align: left;
+}
+.dashboard-breadcrumb-menu-right {
+  text-align: right;
+}
+.breadcrumb-logout-btn {
+  padding: 3px 15px;
+color: #fff;
+}
+.breadcrumb-logout-btn:hover {
+  color: #c40b0b;
+  background-color: #fff; 
+}
+.search-page {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-right: 0px;
+  padding-left: 0px;
+  background: transparent;
+  box-shadow: none;
+}
+.text-left {
+  text-align: left;
+}
+p.search-welcome-text {
+  font-weight: bold;
+}
+.borderless-bottom {
+  border: none;
+}
+.search-check {
+  display: inline-block;
+  margin-right: 10px;
+}
+.search-check-form input {
+  border: 2px solid #ccc;
+cursor: pointer;
+padding: 0;
+position: relative;
+color: #fff;
+background: #fff !important;
+-webkit-appearance: none;
+}
+.search-check-form .form-check-input[type="radio"], 
+.site-orientation-list .form-check-input[type="radio"], 
+.site-faces-options .form-check-input[type="radio"],
+.site-measurement-options .form-check-input[type="radio"],
+.site-price-filter-options .form-check-input[type="radio"],
+.payment-frequency-options .form-check-input[type="radio"] {
+  box-sizing: border-box;
+  border-radius: 0px;
+  background-color: #fff;
+}
+.search-check-form .form-check-input:checked::after {
+  font-family: "Font Awesome 6 Pro";
+content: "\f00c";
+font-size: 10px;
+position: absolute;
+color: #c40b0b;
+z-index: 10;
+top: -2px;
+right: 2px;
+}
+.site-orientation-list .form-check-input:checked::after, 
+.site-faces-options .form-check-input:checked::after,
+.site-measurement-options .form-check-input:checked::after,
+.site-price-filter-options .form-check-input:checked::after,
+.payment-frequency-options .form-check-input:checked::after {
+  font-family: "Font Awesome 6 Pro";
+content: "\f00c";
+font-size: 10px;
+position: relative;
+color: #c40b0b;
+z-index: 10;
+top: -9px;
+right: -2px;
+}
+.padding-margin-bottom-none {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+.form-check label {
+  font-size: 13px;
+}
+.site-orientation-list li, 
+.site-faces-options li,
+.site-measurement-options li,
+.site-price-filter-options li,
+.payment-frequency-options li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.hide-site-location {
+  display: none;
+}
+.show-site-location {
+  display: block;
+}
 /** Responsive CSS **/
 @media (max-width: 991px) {
   body {
@@ -462,4 +631,35 @@ h4.category-title {
  #why-choose-us::before {
   height: 120%;
  }
+ .login-breadcrumb {
+  padding-top: 80px;
+padding-bottom: 20px;
+}
+.text-align-left {
+  text-align: left;
+}
+.breadcrumb-logout-btn {
+  padding: 3px 10px;
+}
+a.profile-logout-btn {
+  border-radius: 10px;
+  font-size: 12px;
+}
+.search-check-form .form-check-input:checked::after {
+  font-size: 8px;
+  top: -2px;
+right: 1px;
+}
+.breadcrumb-logout-btn-div {
+  margin-top: 5px;
+}
+.site-orientation-list .form-check-input:checked::after, 
+.site-faces-options .form-check-input:checked::after,
+.site-measurement-options .form-check-input:checked::after,
+.site-price-filter-options .form-check-input:checked::after,
+.payment-frequency-options .form-check-input:checked::after {
+  top: -9px;
+right: -2px;
+font-size: 8px;
+}
 }
