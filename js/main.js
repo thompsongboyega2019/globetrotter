@@ -397,7 +397,25 @@ Version         : 1.0
     //Add New Staff
     $("#add-staff-btn").click(function () {
       $(".add-staff-form").css("display", "block"); 
-    })
+    });
+
+    //Show Site Location
+    $("#dynamic-btn").click(function () {
+        $("#dynamic-board").removeClass("hide-site-location").addClass("show-site-location");
+        $("#static-board, #digital-board, #mobile-board").removeClass("show-site-location").addClass("hide-site-location");
+    });
+    $("#digital-btn").click(function () {
+        $("#digital-board").removeClass("hide-site-location").addClass("show-site-location");
+        $("#static-board, #dynamic-board, #mobile-board").removeClass("show-site-location").addClass("hide-site-location");
+    });
+    $("#mobile-btn").click(function () {
+        $("#mobile-board").removeClass("hide-site-location").addClass("show-site-location");
+        $("#static-board, #dynamic-board, #digital-board").removeClass("show-site-location").addClass("hide-site-location");
+    });
+    $("#static-btn").click(function () {
+        $("#static-board").removeClass("hide-site-location").addClass("show-site-location");
+        $("#mobile-board, #dynamic-board, #digital-board").removeClass("show-site-location").addClass("hide-site-location");
+    });
     
     
 })(jQuery);
