@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="description" content="GlobeTrotter is a platform for Out Of Home advertising">
+   <meta name="keywords" content="GlobeTrotter, DataShare, OAAN, OAAN DataShare">
+   <meta name="author" content="OAAN DataShare">
+   <title>GlobeTrotter - Campaigns</title>
+   <link rel="icon" type="image/x-icon" href="../img/logo/favicon.png">
+   <link rel="stylesheet" href="../css/bootstrap.min.css">
+   <link rel="stylesheet" href="../css/all-fontawesome.min.css">
+   <link rel="stylesheet" href="../css/flaticon.css">
+   <link rel="stylesheet" href="../css/animate.min.css">
+   <link rel="stylesheet" href="../css/magnific-popup.min.css">
+   <link rel="stylesheet" href="../css/owl.carousel.min.css">
+   <link rel="stylesheet" href="../css/nice-select.min.css">
+   <link rel="stylesheet" href="../css/jquery-ui.min.css">
+   <link rel="stylesheet" href="../css/style.css">
+   <link rel="stylesheet" href="../css/custom.css">
+</head>
+
+<body class="home-3">
+   <div class="preloader">
+      <div class="loader">
+         <div class="dots"> <img src="../img/logo/logo.png" alt=""><br>
+            GlobeTrotter
+         </div>
+      </div>
+   </div>
+   <header class="header">
+      <!--<div class="header-top-contact header-flex-container">
+            <p id="top-header-One" class="flex-item">Welcome To GlobeTrotter, Where Out-Of-Home Advertisement is Made Easy!!!</p>
+         </div>-->
+      <div class="header-top">
+         <div class="container">
+            <div class="header-top-wrapper">
+               <div class="header-top-left">
+                  <div class="header-top-contact">
+                     <ul>
+                        <li>
+                           <div class="header-top-contact-info">
+                              <a href=""><i class="far fa-envelopes"></i>
+                                 <span class="__cf_email__" data-cfemail="">info@globetrotter.com.ng</span></a>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="header-top-contact-info">
+                              <a href="tel:+21236547898"><i class="far fa-phone-arrow-down-left"></i>
+                                 +234-813-2614337</a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="header-top-right">
+                  <div class="header-top-social">
+                     <a href="#"><i class="fab fa-facebook-f"></i></a>
+                     <a href="#"><i class="fab fa-twitter"></i></a>
+                     <a href="#"><i class="fab fa-instagram"></i></a>
+                     <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </div>
+      <div class="main-navigation">
+         <nav class="navbar navbar-expand-lg">
+            <div class="container">
+               <a class="navbar-brand" href="../index.html">
+                  <img src="../img/logo/logo.png" alt="logo">
+               </a>
+               <div class="mobile-menu-right">
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"
+                     aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-btn-icon"><i class="far fa-bars"></i></span>
+                  </button>
+               </div>
+               <div class="collapse navbar-collapse" id="main_nav">
+                  <ul class="navbar-nav">
+                     <li class="nav-item top-header-nav"><a class="nav-link" href="dashboard.html">Dashboard</a></li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" data-bs-toggle="dropdown">Advert Manager</a>
+                        <ul class="dropdown-menu fade-down">
+                           <li><a class="dropdown-item sm-fs-13" href="search.html">Book a Site</a></li>
+                           <li><a class="dropdown-item sm-fs-13" href="#">FastTrack Booking</a></li>
+                           <li><a class="dropdown-item sm-fs-13" href="campaigns.html">Create Campaign</a></li>
+                           <li><a class="dropdown-item sm-fs-13" href="material_upload.html">Material Upload</a></li>
+                           <li><a class="dropdown-item sm-fs-13" href="booked_assets.html">Booked Site</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Profile</a>
+                        <ul class="dropdown-menu fade-down">
+                           <li><a class="dropdown-item sm-fs-13" href="edit_profile.html">Edit</a></li>
+                           <li><a class="dropdown-item sm-fs-13" href="change_password.html">Change Password</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Transactions</a>
+                        <ul class="dropdown-menu fade-down">
+                           <li><a class="dropdown-item sm-fs-13" href="pending_transactions.html">Pending Transactions</a></li>
+                           <li><a class="dropdown-item sm-fs-13" href="historical_transactions.html">Historical Transactions</a></li>
+                        </ul>
+                     </li>
+                     <li class="nav-item top-header-nav"><a class="nav-link" href="payment_history.html">Payment History</a></li>
+                     <li class="nav-item top-header-nav"><a class="nav-link" href="#">My Account</a></li>
+                  </ul>
+               </div>
+            </div>
+         </nav>
+      </div>
+   </header>
+   <main class="main">
+
+      <div class="site-breadcrumb login-breadcrumb dashboard-breadcrumb">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4 col-md-4 col-12">
+                  <div>
+                     <ul class="breadcrumb-menu dashboard-breadcrumb-menu-left">
+                        <li><a href="dashboard.html">Dashboard</a></li>
+                        <li>Advert Manager</li>
+                        <li class="active-nav-dashboard">Campaigns</li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="col-lg-6 col-md-4 col-12"></div>
+               <div class="col-lg-2 col-md-2 col-12">
+                  <div class="dashboard-breadcrumb-menu-right text-align-left breadcrumb-logout-btn-div">
+                     <a class="profile-logout-btn breadcrumb-logout-btn" href="#"><i class="far fa-sign-out"></i>
+                        Logout</a></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <section id="site-location-search">
+         <div class="user-profile pt-40 pb-40 dashboard-bg-color">
+             <div id="static-board" class="container-fluid show-site-location">
+               <div class="row">
+                  <div class="col-lg-12">
+                     <div class="user-profile-wrapper">
+                        <div class="login-form add-campaign-div wow fadeInUp" data-wow-duration="2.5s">
+                           <div class="row">
+                              <div class="col-md-8">
+                                 <div>
+                                    <p class="welcome-text fs-15 create-campaign-text">Kindly create a new campaign by clicking on the right button.</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="create-campaign-btn-div text-right text-align-left">
+                                    <a href="create_campaign.html"><button class="theme-btn create-campaign-btn fs-14">Create Campaign <span class="create-campaign-icon fal fa-plus"></span></button></a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-8">
+                           <div class="user-profile-sidebar-top mt-30 borderless-bottom text-left mb-0 campaign-title-div">
+                              <h4 class="campaign-title">TheBuster MTN 2 (October 14th 2022)</h4>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="add-campaign-cart-div text-right mt-30 mb-0 text-align-left">
+                              <a href="add_items_to_campaign.html"><button class="theme-btn add-campaign-cart-btn fs-14">Add more items to campaign cart <span class="create-campaign-icon fal fa-cart-plus"></span></button></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper mb-10">
+                        <div class="login-form add-campaign-div">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="properties-thumbnails-div">
+                                 <div class="properties-thumbnails">
+                                 <a href="#"><img src="../img/property/sample.jpg" alt="Asset 1"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample-2.jpeg" alt="Asset 2"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample.jpg" alt="Asset 3"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample-2.jpeg" alt="Asset 4"></a>
+                                 </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-9 campaign-row">
+                                 <table class="campaign-info-table">
+                                    <thead>
+                                       <tr>
+                                          <th class="fs-15 sm-fs-13">Site Name</th>
+                                          <th class="fs-15 sm-fs-13">Site Location</th>
+                                          <th class="fs-15 sm-fs-13">Site Dimension</th>
+                                          <th class="fs-15 sm-fs-13">Qty</th>
+                                          <th class="fs-15 sm-fs-13">Site Price</th>
+                                          <th class="fs-15 sm-fs-13">Board Type</th>
+                                          <th class="fs-15 sm-fs-13">Payment Frequency</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td class="fs-14 sm-fs-12">OAAN/OPR/2022/146/0024</td>
+                                          <td class="fs-14 sm-fs-12">AJAH, LEKKI-EPE EXPERESS WAY</td>
+                                          <td class="fs-14 sm-fs-12">10.9m x 0.76m</td>
+                                          <td class="fs-14 sm-fs-12">1</td>
+                                          <td class="fs-14 sm-fs-12">₦0.00</td>
+                                          <td class="fs-14 sm-fs-12">Static</td>
+                                          <td class="fs-14 sm-fs-12">Monthly</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper mb-10">
+                        <div class="login-form add-campaign-div">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="properties-thumbnails-div">
+                                 <div class="properties-thumbnails">
+                                 <a href="#"><img src="../img/property/sample2.jpeg" alt="Asset 1"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample2.jpeg" alt="Asset 2"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample2.jpeg" alt="Asset 3"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample2.jpeg" alt="Asset 4"></a>
+                                 </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-9 campaign-row">
+                                 <table class="campaign-info-table">
+                                    <thead>
+                                       <tr>
+                                          <th class="fs-15 sm-fs-13">Site Name</th>
+                                          <th class="fs-15 sm-fs-13">Site Location</th>
+                                          <th class="fs-15 sm-fs-13">Site Dimension</th>
+                                          <th class="fs-15 sm-fs-13">Qty</th>
+                                          <th class="fs-15 sm-fs-13">Site Price</th>
+                                          <th class="fs-15 sm-fs-13">Board Type</th>
+                                          <th class="fs-15 sm-fs-13">Payment Frequency</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td class="fs-14 sm-fs-12">OAAN/OPR/2022/146/0030</td>
+                                          <td class="fs-14 sm-fs-12">Lekki Epe Express Way, Lekki Pennisula II</td>
+                                          <td class="fs-14 sm-fs-12">6.09m x 0.91m</td>
+                                          <td class="fs-14 sm-fs-12">1</td>
+                                          <td class="fs-14 sm-fs-12">₦0.00</td>
+                                          <td class="fs-14 sm-fs-12">Static</td>
+                                          <td class="fs-14 sm-fs-12">Monthly</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper mb-10">
+                        <div class="login-form add-campaign-div">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="properties-thumbnails-div">
+                                 <div class="properties-thumbnails">
+                                 <a href="#"><img src="../img/property/sample3.jpeg" alt="Asset 1"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample3.jpeg" alt="Asset 2"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample3.jpeg" alt="Asset 3"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample3.jpeg" alt="Asset 4"></a>
+                                 </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-9 campaign-row">
+                                 <table class="campaign-info-table">
+                                    <thead>
+                                       <tr>
+                                          <th class="fs-15 sm-fs-13">Site Name</th>
+                                          <th class="fs-15 sm-fs-13">Site Location</th>
+                                          <th class="fs-15 sm-fs-13">Site Dimension</th>
+                                          <th class="fs-15 sm-fs-13">Qty</th>
+                                          <th class="fs-15 sm-fs-13">Site Price</th>
+                                          <th class="fs-15 sm-fs-13">Board Type</th>
+                                          <th class="fs-15 sm-fs-13">Payment Frequency</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td class="fs-14 sm-fs-12">OAAN/OPR/2022/146/0030</td>
+                                          <td class="fs-14 sm-fs-12">Ajah Market</td>
+                                          <td class="fs-14 sm-fs-12">6.09m x 0.91m</td>
+                                          <td class="fs-14 sm-fs-12">1</td>
+                                          <td class="fs-14 sm-fs-12">₦0.00</td>
+                                          <td class="fs-14 sm-fs-12">Static</td>
+                                          <td class="fs-14 sm-fs-12">Monthly</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper mb-10">
+                        <div class="login-form add-campaign-div">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="properties-thumbnails-div">
+                                    <div class="properties-thumbnails">
+                                       <a href="#"><img src="../img/property/sample4.jpeg" alt="Asset 1"></a>
+                                       </div>
+                                       <div class="properties-thumbnails">
+                                          <a href="#"><img src="../img/property/sample4.jpeg" alt="Asset 2"></a>
+                                       </div>
+                                       <div class="properties-thumbnails">
+                                          <a href="#"><img src="../img/property/sample4.jpeg" alt="Asset 3"></a>
+                                       </div>
+                                       <div class="properties-thumbnails">
+                                          <a href="#"><img src="../img/property/sample4.jpeg" alt="Asset 4"></a>
+                                       </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-9 campaign-row">
+                                 <table class="campaign-info-table">
+                                    <thead>
+                                       <tr>
+                                          <th class="fs-15 sm-fs-13">Site Name</th>
+                                          <th class="fs-15 sm-fs-13">Site Location</th>
+                                          <th class="fs-15 sm-fs-13">Site Dimension</th>
+                                          <th class="fs-15 sm-fs-13">Qty</th>
+                                          <th class="fs-15 sm-fs-13">Site Price</th>
+                                          <th class="fs-15 sm-fs-13">Board Type</th>
+                                          <th class="fs-15 sm-fs-13">Payment Frequency</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td class="fs-14 sm-fs-12">OAAN/OPR/2022/146/0027</td>
+                                          <td class="fs-14 sm-fs-12">Oluwole Baker St, Ajah</td>
+                                          <td class="fs-14 sm-fs-12">3.04m x 3.65m</td>
+                                          <td class="fs-14 sm-fs-12">1</td>
+                                          <td class="fs-14 sm-fs-12">₦0.00</td>
+                                          <td class="fs-14 sm-fs-12">Static</td>
+                                          <td class="fs-14 sm-fs-12">Monthly</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper">
+                        <div class="login-form add-campaign-div wow fadeInUp" data-wow-duration="2.5s">
+                           <div class="row">
+                              <div class="col-md-8">
+                                 <div>
+                                    <p class="welcome-text fs-15 create-campaign-text fb">Grand Total   ₦0.00</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="create-campaign-btn-div text-right text-align-left">
+                                    <a class="generate-campaign-slip" href="">Generate Dealslip and Make Payment »</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="row">
+                        <div class="col-md-8">
+                           <div class="user-profile-sidebar-top mt-30 borderless-bottom text-left mb-0 campaign-title-div">
+                              <h4 class="campaign-title">Henry (February 25th 2023)</h4>
+                           </div>
+                        </div>
+                        <div class="col-md-4">
+                           <div class="add-campaign-cart-div text-right mt-30 mb-0 text-align-left">
+                              <a href="add_items_to_campaign.html"><button class="theme-btn add-campaign-cart-btn fs-14">Add more items to campaign cart <span class="create-campaign-icon fal fa-cart-plus"></span></button></a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper mb-10">
+                        <div class="login-form add-campaign-div">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="properties-thumbnails-div">
+                                 <div class="properties-thumbnails">
+                                 <a href="#"><img src="../img/property/sample.jpg" alt="Asset 1"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample-2.jpeg" alt="Asset 2"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample.jpg" alt="Asset 3"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample-2.jpeg" alt="Asset 4"></a>
+                                 </div>
+                              </div>
+                              </div>
+                              <div class="col-md-9 campaign-row">
+                                 <table class="campaign-info-table">
+                                    <thead>
+                                       <tr>
+                                          <th class="fs-15 sm-fs-13">Site Name</th>
+                                          <th class="fs-15 sm-fs-13">Site Location</th>
+                                          <th class="fs-15 sm-fs-13">Site Dimension</th>
+                                          <th class="fs-15 sm-fs-13">Qty</th>
+                                          <th class="fs-15 sm-fs-13">Site Price</th>
+                                          <th class="fs-15 sm-fs-13">Board Type</th>
+                                          <th class="fs-15 sm-fs-13">Payment Frequency</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td class="fs-14 sm-fs-12">OAAN/OPR/2022/146/0024</td>
+                                          <td class="fs-14 sm-fs-12">AJAH, LEKKI-EPE EXPERESS WAY</td>
+                                          <td class="fs-14 sm-fs-12">10.9m x 0.76m</td>
+                                          <td class="fs-14 sm-fs-12">1</td>
+                                          <td class="fs-14 sm-fs-12">₦0.00</td>
+                                          <td class="fs-14 sm-fs-12">Static</td>
+                                          <td class="fs-14 sm-fs-12">Monthly</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper mb-10">
+                        <div class="login-form add-campaign-div">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="properties-thumbnails-div">
+                                 <div class="properties-thumbnails">
+                                 <a href="#"><img src="../img/property/sample4.jpeg" alt="Asset 1"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample4.jpeg" alt="Asset 2"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample4.jpeg" alt="Asset 3"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample4.jpeg" alt="Asset 4"></a>
+                                 </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-9 campaign-row">
+                                 <table class="campaign-info-table">
+                                    <thead>
+                                       <tr>
+                                          <th class="fs-15 sm-fs-13">Site Name</th>
+                                          <th class="fs-15 sm-fs-13">Site Location</th>
+                                          <th class="fs-15 sm-fs-13">Site Dimension</th>
+                                          <th class="fs-15 sm-fs-13">Qty</th>
+                                          <th class="fs-15 sm-fs-13">Site Price</th>
+                                          <th class="fs-15 sm-fs-13">Board Type</th>
+                                          <th class="fs-15 sm-fs-13">Payment Frequency</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td class="fs-14 sm-fs-12">OAAN/OPR/2022/146/0027</td>
+                                          <td class="fs-14 sm-fs-12">Oluwole Baker St, Ajah</td>
+                                          <td class="fs-14 sm-fs-12">3.04m x 3.65m</td>
+                                          <td class="fs-14 sm-fs-12">1</td>
+                                          <td class="fs-14 sm-fs-12">₦0.00</td>
+                                          <td class="fs-14 sm-fs-12">Static</td>
+                                          <td class="fs-14 sm-fs-12">Monthly</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper mb-10">
+                        <div class="login-form add-campaign-div">
+                           <div class="row">
+                              <div class="col-md-3">
+                                 <div class="properties-thumbnails-div">
+                                 <div class="properties-thumbnails">
+                                 <a href="#"><img src="../img/property/sample2.jpeg" alt="Asset 1"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample2.jpeg" alt="Asset 2"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample2.jpeg" alt="Asset 3"></a>
+                                 </div>
+                                 <div class="properties-thumbnails">
+                                    <a href="#"><img src="../img/property/sample2.jpeg" alt="Asset 4"></a>
+                                 </div>
+                                 </div>
+                              </div>
+                              <div class="col-md-9 campaign-row">
+                                 <table class="campaign-info-table">
+                                    <thead>
+                                       <tr>
+                                          <th class="fs-15 sm-fs-13">Site Name</th>
+                                          <th class="fs-15 sm-fs-13">Site Location</th>
+                                          <th class="fs-15 sm-fs-13">Site Dimension</th>
+                                          <th class="fs-15 sm-fs-13">Qty</th>
+                                          <th class="fs-15 sm-fs-13">Site Price</th>
+                                          <th class="fs-15 sm-fs-13">Board Type</th>
+                                          <th class="fs-15 sm-fs-13">Payment Frequency</th>
+                                       </tr>
+                                    </thead>
+                                    <tbody>
+                                       <tr>
+                                          <td class="fs-14 sm-fs-12">OAAN/OPR/2022/146/0030</td>
+                                          <td class="fs-14 sm-fs-12">Lekki Epe Express Way, Lekki Pennisula II</td>
+                                          <td class="fs-14 sm-fs-12">6.09m x 0.91m</td>
+                                          <td class="fs-14 sm-fs-12">1</td>
+                                          <td class="fs-14 sm-fs-12">₦0.00</td>
+                                          <td class="fs-14 sm-fs-12">Static</td>
+                                          <td class="fs-14 sm-fs-12">Monthly</td>
+                                       </tr>
+                                    </tbody>
+                                 </table>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="user-profile-wrapper">
+                        <div class="login-form add-campaign-div wow fadeInUp" data-wow-duration="2.5s">
+                           <div class="row">
+                              <div class="col-md-8">
+                                 <div>
+                                    <p class="welcome-text fs-15 create-campaign-text fb">Grand Total   ₦0.00</p>
+                                 </div>
+                              </div>
+                              <div class="col-md-4">
+                                 <div class="create-campaign-btn-div text-right text-align-left">
+                                    <a class="generate-campaign-slip" href="">Generate Dealslip and Make Payment »</a>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <!--Static Board Ends-->
+
+           
+         </div>
+      </section>
+
+
+
+
+   </main>
+   <!--Footer-->
+   <footer class="footer-area">
+      <div class="footer-widget">
+         <div class="container">
+            <div class="row footer-widget-wrapper pt-40 pb-10 text-center">
+               <div class="col-md-12 col-lg-12">
+                  <div class="footer-widget-box about-us">
+                     <a href="#" class="footer-logo">
+                        <img src="../img/logo/footer-logo.png" alt="">
+                     </a>
+                     <p class="mb-3">
+                        GlobeTrotterTM is a platform that aggregates over 25,000 billboards and out of home advertising
+                        assets of the
+                        165 Outdoor Advertising Association of Nigeria members, Advertisers, media buyers and the
+                        General public into
+                        a very interactive digital marketplace.
+                     </p>
+                     <ul class="footer-contact text-center">
+                        <li><a href="tel:+234-813-2614337"><i class="far fa-phone"></i>+234-813-2614337</a></li>
+                        <li><i class="far fa-map-marker-alt"></i>12, Ribadu Road, Off Awolowo way, Ikoyi</li>
+                        <li><a href=""><i class="far fa-envelope"></i><span class="__cf_email__">
+                                 info@globetrotter.com.ng</span></a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="copyright">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 align-self-center">
+                  <p class="copyright-text text-center">
+                     &copy; Copyright <span id="date"></span> <a href="#"> GLOBETROTTER </a>. All Rights Reserved.
+                  </p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <!--Footer Ends-->
+
+   <a href="#" id="scroll-top"><i class="far fa-angle-up"></i></a>
+   <script data-cfasync="false" src="../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+   <script src="../js/jquery-3.6.0.min.js"></script>
+   <script src="../js/modernizr.min.js"></script>
+   <script src="../js/bootstrap.bundle.min.js"></script>
+   <script src="../js/jquery.magnific-popup.min.js"></script>
+   <script src="../js/isotope.pkgd.min.js"></script>
+   <script src="../js/jquery.appear.min.js"></script>
+   <script src="../js/jquery.easing.min.js"></script>
+   <script src="../js/owl.carousel.min.js"></script>
+   <script src="../js/counter-up.js"></script>
+   <script src="../js/masonry.pkgd.min.js"></script>
+   <script src="../js/jquery.nice-select.min.js"></script>
+   <script src="../js/jquery-ui.min.js"></script>
+   <script src="../js/wow.min.js"></script>
+   <script src="../js/apexcharts.min.js"></script>
+   <script src="../js/apexchart-custom.js"></script>
+   <script src="../js/main.js"></script>
+</body>
+
+</html>
