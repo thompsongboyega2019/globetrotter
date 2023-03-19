@@ -82,7 +82,7 @@ h3,
 h4,
 h5,
 h6 {
-  color: #0E2E50;
+  color: #102039;
   margin: 0px;
   font-weight: 600;
   font-family: 'Roboto', sans-serif;
@@ -417,6 +417,9 @@ margin & padding
 .pt-0 {
   padding-top: 0px;
 }
+.pt-5 {
+  padding-top: 5px;
+}
 
 .pt-10 {
   padding-top: 10px;
@@ -466,6 +469,9 @@ margin & padding
 
 .pb-0 {
   padding-bottom: 0px;
+}
+.pb-5 {
+  padding-bottom: 5px;
 }
 
 .pb-10 {
@@ -639,7 +645,7 @@ theme button
   content: "";
   height: 400px;
   width: 400px;
-  background: #e91717;
+  background: #c40b0b;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -913,7 +919,7 @@ nav menu css
    margin: 10px 15px;
     width: 100%;
     padding: 5px 0 5px 0;
-    font-size: 17px;
+    font-size: 15px;
     font-weight: 500;
     color: #000;
     text-align: center;
@@ -960,7 +966,7 @@ nav menu css
   }
 
   .navbar .nav-item .dropdown-menu .dropdown-item {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     padding: 10px 0px 10px 20px;
     color: #000;
@@ -1224,7 +1230,7 @@ button.navbar-toggler:focus {
   }
 
   .navbar .nav-item .nav-link:hover {
-    color: #09C398 !important;
+    color: #c40b0b !important;
   }
 
   .navbar-toggler {
@@ -1364,7 +1370,7 @@ hero css
   height: 100%;
   left: -0.5px;
   top: 0;
-  background: rgba(16, 32, 57, .1);
+  background: rgba(16, 32, 57, 0);
   z-index: -1;
 }
 
@@ -1819,7 +1825,7 @@ category css
 
 .category-item {
   text-align: center;
-  background: rgba(237, 242, 249, .8);
+  background: rgba(16, 32, 57, .9);
   margin-bottom: 25px;
   border-radius: 12px;
   box-shadow: 0 0 40px 5px rgb(0 0 0 / 5%);
@@ -1844,6 +1850,7 @@ category css
 .category-title {
   margin: 10px 0;
   font-size: 15px;
+  color: #fff;
 }
 
 .category-property {
@@ -1882,7 +1889,7 @@ property listing css
   position: absolute;
   right: 30px;
   top: 30px;
-  background: #09C398;
+  background: #c40b0b;
   padding: 2px 10px;
   color: #fff;
   border-radius: 8px 8px 8px 8px;
@@ -1909,12 +1916,12 @@ property listing css
 }
 
 .listing-title a:hover {
-  color: #09C398;
+  color: #c40b0b;
 }
 
 .listing-sub-title i {
   margin-right: 8px;
-  color: #09C398;
+  color: #c40b0b;
 }
 
 .listing-price {
@@ -1991,15 +1998,16 @@ property listing css
 
 .listing-btn {
   padding: 5px 14px;
-  border: 2px solid #09C398;
-  color: #09C398;
+  border: 2px solid #102039;
+  color: #102039;
   font-weight: 500;
   border-radius: 10px;
 }
 
 .listing-btn:hover {
-  background: #09C398;
-  color: #fff;
+  background: #c40b0b;
+color: #fff;
+border: 2px solid #c40b0b;
 }
 
 .property-listing-slider .listing-item {
@@ -2076,7 +2084,7 @@ property listing css
 
 .property-sort .form-control:focus,
 .property-sort .nice-select:focus {
-  border-color: #09C398;
+  border-color: #102039;
 }
 
 .property-sort .nice-select .list {
@@ -2091,7 +2099,7 @@ property listing css
 .property-sort .nice-select .option.selected.focus,
 .property-sort .nice-select .option:hover {
   background: #F6F6F6;
-  color: #09C398;
+  color: #102039;
   border-radius: 8px;
 }
 
@@ -2174,7 +2182,7 @@ property single css
 }
 
 .property-single-meta-left span {
-  background: #09C398;
+  background: #c40b0b;
   padding: 5px 10px;
   color: #fff;
   border-radius: 7px;
@@ -2186,7 +2194,7 @@ property single css
 
 .property-single-price {
   font-size: 22px;
-  color: #09C398;
+  color: #c40b0b;
   font-weight: 700;
 }
 
@@ -2202,11 +2210,11 @@ property single css
   width: 35px;
   height: 35px;
   line-height: 35px;
-  background: #09C398;
+  background: #c40b0b;
   color: #fff;
   text-align: center;
-  margin-left: 5px;
-  border-radius: 8px;
+  /**margin-left: 5px;**/
+  border-radius: 5px;
 }
 
 .property-single-meta-option a:hover {
@@ -2222,6 +2230,7 @@ property single css
 }
 
 .property-single-content h4 {
+  /**display: inline-block;**/
   padding: 15px 0;
   margin-bottom: 15px;
   border-bottom: 1px solid rgba(0, 0, 0, .1);
@@ -2355,12 +2364,12 @@ property single css
 
 .property-similar-slider .owl-dots {
   text-align: center;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .property-similar-slider .owl-dots .owl-dot span {
   background: transparent;
-  border: 2px solid #09C398;
+  border: 2px solid #C40B0B;
   margin: 5px;
   border-radius: 50px;
   width: 12px;
@@ -2370,7 +2379,7 @@ property single css
 }
 
 .property-similar-slider .owl-dots .owl-dot.active span {
-  background: #09C398;
+  background: #C40B0B;
 }
 
 .property-single-slider.owl-theme .owl-nav {
@@ -2382,11 +2391,11 @@ property single css
   position: absolute;
   top: 50%;
   transform: translate(0, -50%);
-  color: #09C398;
+  color: #fff;
   font-size: 25px;
   margin: 0;
   padding: 0;
-  background: #fff;
+  background: #102039;
   display: inline-block;
   cursor: pointer;
   height: 50px;
@@ -2398,7 +2407,7 @@ property single css
 }
 
 .property-single-slider.owl-theme .owl-nav button:hover {
-  background: #09C398;
+  background: #c40b0b;
   color: #fff;
 }
 
@@ -3049,8 +3058,8 @@ about css
 .about-img::before {
   content: "";
 position: absolute;
-width: 110%;
-height: 110%;
+width: 100%;
+height: 100%;
 background: #102039;
 border-radius: 10px;
 left: -25px;
@@ -5048,7 +5057,7 @@ faq css
 }
 
 .faq-area .accordion-button:not(.collapsed) {
-  color: #e91717;
+  color: #c40b0b;
   background: transparent;
   box-shadow: inset 0 -1px 0 rgb(0 0 0 / 13%);
 }
@@ -5096,21 +5105,22 @@ breadcrumb css
   background-position: center !important;
   background-size: cover !important;
   position: relative;
-  padding-top: 150px;
-  padding-bottom: 150px;
+  padding-top: 100px;
+  padding-bottom: 100px;
   z-index: 1;
 }
 
 .site-breadcrumb::before {
   content: "";
   position: absolute;
-  background: rgba(16, 32, 57, 1);
+  background: rgba(16, 32, 57, .9);
   height: 100%;
   width: 100%;
   top: 0;
   left: 0;
   z-index: -1;
 }
+
 
 .site-breadcrumb .breadcrumb-title {
   font-size: 40px;
@@ -5189,7 +5199,7 @@ pagination css
 
 .pagination .page-link {
   border: none;
-  background: #0E2E50;
+  background: #102039;
   color: #fff;
   margin: 0 10px;
   border-radius: 8px !important;
@@ -5202,7 +5212,7 @@ pagination css
 
 .pagination .page-link:hover,
 .pagination .page-item.active .page-link {
-  background: #09C398;
+  background: #c40b0b;
   color: #fff;
 }
 
@@ -5307,6 +5317,7 @@ auth css
   position: absolute;
   bottom: 11px;
   left: 18px;
+  color: #c40b0b;
 }
 
 .login-form label {
@@ -5323,7 +5334,7 @@ auth css
 }
 
 .login-form .form-group .form-control:focus {
-  border-color: #09C398;
+  border-color: #102039;
 }
 
 .login-form .form-check-input {
@@ -5693,8 +5704,8 @@ color: #fff;
 }
 
 .dashboard-widget-color-2 {
-  background: rgb(255, 255, 255);
-  color: #102039;
+  background: #102039;
+  color: #fff;
 }
 
 .dashboard-widget-color-2 h1 {
@@ -6424,7 +6435,7 @@ footer css
 ====================== */
 
 .footer-area {
-  background: #050b13;
+  background: #102039;
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -6446,7 +6457,7 @@ footer css
 
 .copyright {
   padding: 10px 0;
-background: #000;
+background: #111b2b;
 }
 
 .copyright .footer-menu {
