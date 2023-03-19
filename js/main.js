@@ -416,8 +416,96 @@ Version         : 1.0
         $("#static-board").removeClass("hide-site-location").addClass("show-site-location");
         $("#mobile-board, #dynamic-board, #digital-board").removeClass("show-site-location").addClass("hide-site-location");
     });
+
+    //Show Site Category
+    $("#dynamic-category-btn").click(function () {
+        $("#dynamic-board").removeClass("hide-site-category").addClass("show-site-category");
+        $("#static-board, #digital-board, #mobile-board").removeClass("show-site-category").addClass("hide-site-category");
+    });
+    $("#digital-category-btn").click(function () {
+        $("#digital-board").removeClass("hide-site-category").addClass("show-site-category");
+        $("#static-board, #dynamic-board, #mobile-board").removeClass("show-site-category").addClass("hide-site-category");
+    });
+    $("#mobile-category-btn").click(function () {
+        $("#mobile-board").removeClass("hide-site-category").addClass("show-site-category");
+        $("#static-board, #dynamic-board, #digital-board").removeClass("show-site-category").addClass("hide-site-category");
+    });
+    $("#static-category-btn").click(function () {
+        $("#static-board").removeClass("hide-site-category").addClass("show-site-category");
+        $("#mobile-board, #dynamic-board, #digital-board").removeClass("show-site-category").addClass("hide-site-category");
+    });
+
+    //Campaign-form-submit-button
+    $("#campaign-form-submit-button").click(function () {
+        $("#create-campaign-modal").toggleClass("hide-campaign-modal");
+    })
+
+    //Show asset single info
+    $("#neighbour-btn").click(function () {
+     $("#eye-slash-visibility-one").toggleClass("visibility-off");
+     $("#eye-visibility-one").toggleClass("visibility-on");
+     $("#asset-neighbour-info").toggleClass("show-single-info");
+    });
+    $("#dimension-btn").click(function () {
+        $("#eye-slash-visibility-two").toggleClass("visibility-off");
+        $("#eye-visibility-two").toggleClass("visibility-on");
+        $("#asset-dimension-info").toggleClass("show-single-info");
+       });
+       $("#description-btn").click(function () {
+        $("#eye-slash-visibility-three").toggleClass("visibility-off");
+        $("#eye-visibility-three").toggleClass("visibility-on");
+        $("#asset-description-info").toggleClass("show-single-info");
+       });
     
-    
+    //Add items to campaign
+    $("#asset-campaign-1").click(function() {
+       $("#check-badge-1").toggleClass("show-check-badge");
+    });
+    $("#asset-campaign-2").click(function() {
+        $("#check-badge-2").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-3").click(function() {
+        $("#check-badge-3").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-4").click(function() {
+        $("#check-badge-4").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-5").click(function() {
+        $("#check-badge-5").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-6").click(function() {
+        $("#check-badge-6").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-7").click(function() {
+        $("#check-badge-7").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-8").click(function() {
+        $("#check-badge-8").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-9").click(function() {
+        $("#check-badge-9").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-10").click(function() {
+        $("#check-badge-10").toggleClass("show-check-badge");
+     });
+     $("#asset-campaign-11").click(function() {
+        $("#check-badge-11").toggleClass("show-check-badge");
+     });
+
+     //Campaign cart btn
+     $("#campaign-cart-btn").click(function() {
+        $("#add-to-existing-campaign-modal").css("display", "block");
+     });
+
+     //Close campaign list btn
+    $("#close-campaign-list-btn").click(function() {
+      $("#add-to-existing-campaign-modal").css("display", "none");
+    });
+
+    //Toggle between show and hide map on asset-details page
+    $("#show-and-hide-map-btn").click(function() {
+          $("#property-single-map").toggleClass("show-property-single-map");
+    })
 })(jQuery);
 
 
