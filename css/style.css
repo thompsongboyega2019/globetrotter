@@ -3499,7 +3499,7 @@ video css
   position: relative;
   display: flex;
   justify-content: center;
-  height: 450px;
+  /**height: 450px;**/
   z-index: 100;
 }
 
